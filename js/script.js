@@ -49,7 +49,15 @@ const observer = new IntersectionObserver(
 
       backToTop.classList.remove("hidden");
     } else {
-      header.classList.remove("bg-secondary", "shadow-lg");
+      header.classList.remove(
+        "bg-secondary/50",
+        "shadow-lg",
+        "sticky",
+        "top-0",
+        "left-0",
+        "w-full",
+        "z-50",
+      );
       header.classList.add("bg-transparent");
       header.classList.remove("sticky");
 
