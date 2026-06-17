@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("./assets/fonts/Space_Mono/SpaceMono-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("./assets/fonts/Space_Mono/SpaceMono-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("./assets/fonts/Work_Sans/static/WorkSans-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("./assets/fonts/Work_Sans/static/WorkSans-Regular.ttf");
+  font-weight: 400;
+}
+
+@theme {
+  --font-work: "WorkSans", sans-serif;
+  --font-space: "Space Mono", monospace;
+
+  --color-primary: #2b2b2b;
+  --color-secondary: #3b3b3b;
+  --color-caption: #858584;
+  --color-white: #ffffff;
+  --color-actions: #a259ff;
+
+  --h-650: 650px;
+}
