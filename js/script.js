@@ -219,7 +219,7 @@ const renderCategory = function (category) {
         </div>
       </div>
       <div class="bg-secondary w-full px-7 py-5 backdrop-blur-md">
-          <span class="text-2xl font-semibold">${category.name}</span>
+          <span class="xl:text-2xl text-base font-semibold">${category.name}</span>
       </div>
     </div>`;
   categoryCard.innerHTML += html;
