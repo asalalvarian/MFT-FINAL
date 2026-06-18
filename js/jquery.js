@@ -70,7 +70,7 @@ function formatName(name) {
 }
 
 function formatEmail(email) {
-  return name.trim().toLowerCase();
+  return email.trim().toLowerCase();
 }
 
 function formatPassword(password) {
