@@ -23,8 +23,8 @@ $(function () {
 
     const data = {
       userName: formatName(userName.val()),
-      email: formatName(email.val()),
-      password: formatName(password.val()),
+      email: formatEmail(email.val()),
+      password: formatPassword(password.val()),
     };
 
     $.ajax({
