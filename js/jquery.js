@@ -112,7 +112,7 @@ function validatePassword() {
 
   if (!valid) {
     $("#passwordFeedback").text(
-      "Password must contain at least on letter and one number",
+      "Password must contain at least one letter and one number",
     );
   } else {
     $("#passwordFeedback").text("");
